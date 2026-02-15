@@ -104,25 +104,6 @@ const Contact = () => {
               </div>
               <div className="image-background-shape"></div>
             </div>
-
-            <div className="contact-form">
-              <h3>Send a Message</h3>
-              <form className="form">
-                <div className="form-group">
-                  <input type="text" placeholder="Your Name" className="form-input" />
-                </div>
-                <div className="form-group">
-                  <input type="email" placeholder="Your Email" className="form-input" />
-                </div>
-                <div className="form-group">
-                  <textarea placeholder="Your Message" rows="4" className="form-textarea"></textarea>
-                </div>
-                <button type="submit" className="submit-button">
-                  Send Message
-                  <span className="arrow">→</span>
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </div>
