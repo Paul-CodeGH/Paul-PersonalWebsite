@@ -43,7 +43,7 @@ const About = () => {
               
               <div className="bio-text">
                 <p>
-                  I'm Paul, a passionate 24-year-old Creative Computing student dedicated to building digital solutions that make a meaningful impact. I specialize in web development with React and Node.js, software engineering, and have a strong foundation in data analytics and machine learning using Python and R.                </p>
+                  I'm Paul, a passionate 25-year-old Creative Computing student dedicated to building digital solutions that make a meaningful impact. I specialize in web development with React and Node.js, software engineering, and have a strong foundation in data analytics and machine learning using Python and R.                </p>
                 
                 <p>
                   My journey started at the age of 14, when I started exploring programming through game scripting and modding. Since then, I've honed my skills in both front-end and back-end development, always striving to create intuitive user experiences and efficient code.
