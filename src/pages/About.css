@@ -75,11 +75,29 @@
   animation: slideInFromLeft 1s ease-out;
 }
 
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
 .profile-image-container {
   position: relative;
   width: 100%;
-  max-width: 400px;
   height: 500px;
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  color: white;
+  margin-top: 1.5rem;
+  opacity: 0.9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: rotate(-3deg);
+  white-space: nowrap;
 }
 
 .profile-image {

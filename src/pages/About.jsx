@@ -24,15 +24,18 @@ const About = () => {
 
         <div className="about-grid">
           <div className="image-section">
-            <div className="profile-image-container">
-              <div className="profile-image">
-                <img 
-                  src={profilePhoto} 
-                  alt="Paul-Adrian Moldovan" 
-                  className="profile-photo"
-                />
+            <div className="image-column">
+              <div className="profile-image-container">
+                <div className="profile-image">
+                  <img 
+                    src={profilePhoto} 
+                    alt="Paul-Adrian Moldovan" 
+                    className="profile-photo"
+                  />
+                </div>
+                <div className="image-background-shape"></div>
               </div>
-              <div className="image-background-shape"></div>
+              <p className="signature">Paul-Adrian Moldovan</p>
             </div>
           </div>
 
