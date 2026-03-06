@@ -59,23 +59,84 @@ const About = () => {
 
               <div className="skills-section">
                 <h3>Skills & Technologies</h3>
-                <div className="skills-grid">
-                  <span className="skill-tag">React.js</span>
-                  <span className="skill-tag">JavaScript</span>
-                  <span className="skill-tag">Node.js</span>
-                  <span className="skill-tag">TypeScript</span>
-                  <span className="skill-tag">HTML5 & CSS3</span>
-                  <span className="skill-tag">Linux</span>
-                  <span className="skill-tag">Git</span>
-                  <span className="skill-tag">Kotlin</span>
-                  <span className="skill-tag">Python</span>
-                  <span className="skill-tag">R Programming</span>
-                  <span className="skill-tag">Data Analytics and Statistics</span>
-                  <span className="skill-tag">UI/UX Design</span>
-                  <span className="skill-tag">Figma</span>
-                  <span className="skill-tag">MySQL, MongoDB, PostgreSQL & SQLite </span>
-                  <span className="skill-tag">RESTful APIs</span>
-                  <span className="skill-tag">Office 365</span>
+
+                {/* overview layout now two main groups with additional cards */}
+                <div className="skills-overview">
+                  <div className="skill-group">
+
+                    <div className="category-box">
+                      <h5>Frontend Web Development</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">React.js</span>
+                        <span className="skill-tag">JavaScript</span>
+                        <span className="skill-tag">TypeScript</span>
+                        <span className="skill-tag">HTML5 & CSS3</span>
+                      </div>
+                    </div>
+
+                    <div className="category-box">
+                      <h5>Backend Web Development</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">Node.js</span>
+                        <span className="skill-tag">RESTful APIs</span>
+                      </div>
+                    </div>
+
+                    <div className="category-box">
+                      <h5>Data Analytics</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">R</span>
+                        <span className="skill-tag">Python</span>
+                      </div>
+                    </div>
+
+                    <div className="category-box">
+                      <h5>Tools & Platforms</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">Linux</span>
+                        <span className="skill-tag">Git</span>
+                        <span className="skill-tag">Office 365</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="skill-group">
+
+                    <div className="category-box">
+                      <h5>Mobile Development</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">Java</span>
+                        <span className="skill-tag">Kotlin</span>
+                        <span className="skill-tag">Swift</span>
+                      </div>
+                    </div>
+
+                    <div className="category-box">
+                      <h5>Desktop Development</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">Rust</span>
+                        <span className="skill-tag">C#</span>
+                      </div>
+                    </div>
+
+                    <div className="category-box">
+                      <h5>Databases</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">MySQL</span>
+                        <span className="skill-tag">MongoDB</span>
+                        <span className="skill-tag">PostgreSQL</span>
+                        <span className="skill-tag">SQLite</span>
+                      </div>
+                    </div>
+
+                    <div className="category-box">
+                      <h5>Design</h5>
+                      <div className="skills-grid">
+                        <span className="skill-tag">UI/UX Design</span>
+                        <span className="skill-tag">Figma</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
