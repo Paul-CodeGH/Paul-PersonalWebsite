@@ -39,7 +39,7 @@ const About = () => {
           <div className="text-section">
             <div className="bio-content">
               <h2>Paul-Adrian Moldovan</h2>
-              <p className="title">3rd semester Creative Computing student</p>
+              <p className="title">4th semester Creative Computing student</p>
               
               <div className="bio-text">
                 <p>
