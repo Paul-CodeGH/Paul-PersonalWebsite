@@ -68,7 +68,7 @@ const About = () => {
                   <div className="skill-group">
 
                     <div className="category-box">
-                      <h5>Frontend Web Development</h5>
+                      <h5>Front-end Web Development</h5>
                       <div className="skills-grid">
                         <span className="skill-tag">React.js</span>
                         <span className="skill-tag">JavaScript</span>
@@ -78,7 +78,7 @@ const About = () => {
                     </div>
 
                     <div className="category-box">
-                      <h5>Backend Web Development</h5>
+                      <h5>Back-end Web Development</h5>
                       <div className="skills-grid">
                         <span className="skill-tag">Node.js</span>
                         <span className="skill-tag">RESTful APIs</span>
